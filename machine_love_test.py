@@ -28,10 +28,25 @@ melody = [
     ("00.wav", librosa.note_to_hz('Bb4'), 0.2),
     ("00.wav", librosa.note_to_hz('C5'), 0.2),
     ("00.wav", librosa.note_to_hz('D5'), 0.4),
-    ("00.wav", librosa.note_to_hz('Eb4'), 0.4)
+    ("00.wav", librosa.note_to_hz('Eb5'), 0.4),
+    ("00.wav", librosa.note_to_hz('Bb4'), 0.4),
+    ("00.wav", librosa.note_to_hz('Ab4'), 0.4),
+    ("00.wav", librosa.note_to_hz('G4'), 0.2),
+    ("00.wav", librosa.note_to_hz('F4'), 0.2),
+    ("00.wav", librosa.note_to_hz('Eb4'), 0.4),
+
+    ("00.wav", librosa.note_to_hz('C4'), 0.8),
+    ("00.wav", librosa.note_to_hz('C4'), 0.4),
+    ("00.wav", librosa.note_to_hz('G4'), 0.4),
+    ("00.wav", librosa.note_to_hz('F4'), 0.4),
+    ("00.wav", librosa.note_to_hz('Eb4'), 0.4),
+    ("00.wav", librosa.note_to_hz('D4'), 0.4),
+    ("00.wav", librosa.note_to_hz('F4'), 0.4),
+    ("00.wav", librosa.note_to_hz('Bb4'), 1.6)
 
 ]
 
+melody *= 2
 
 DIPHONE_DIR = 'diphones'
 OUTPUT_FILE = 'phrases/output.wav'
